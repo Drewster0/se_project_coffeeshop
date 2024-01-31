@@ -41,7 +41,7 @@
   background-color: #fff;
   background-image: url("../images/background_header.svg");
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -103,7 +103,7 @@
   background-color: #0a2750;
   background-image: url("../images/background_recipes.svg");
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 

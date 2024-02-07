@@ -10,7 +10,7 @@
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
-  font-family: "Noto-serif", "Times New Roman", serif;
+  font-family: "Noto serif", "Times New Roman", serif;
 }
 
 .header__image {
@@ -35,13 +35,13 @@
   font-size: 20px;
   line-height: 30px;
   margin: 28px 0 0;
-  font-family: "Noto-serif";
+  font-family: "Noto serif";
 }
 
 .header__span-accent {
   color: #2f80ed;
   display: block;
-  font-family: "Noto-serif";
+  font-family: "Noto serif";
   font-style: italic;
   font-size: 60px;
   line-height: 72px;

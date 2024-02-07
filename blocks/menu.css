@@ -21,7 +21,7 @@
   max-width: 780px;
   padding: 24px 0 100px;
   margin: 0 auto;
-  font-family: "Noto Serif";
+  font-family: "Noto serif";
   font-size: 20px;
   line-height: 30px;
   text-align: center;
@@ -54,7 +54,7 @@
 }
 
 .card__list-item {
-  font-family: "Noto Serif";
+  font-family: "Noto serif";
   display: flex;
   justify-content: space-between;
 }

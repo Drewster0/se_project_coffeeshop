@@ -1,0 +1,93 @@
+@keyframes pulsate {
+  0% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+}
+
+.recipes__videos {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.recipes__iframe {
+  height: 273px;
+  width: 480px;
+}
+
+.recipes__video-caption {
+  margin: 24px 0 0;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  padding: 100px 80px 173px;
+  background-color: #0a2850;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__title {
+  max-width: 251px;
+  z-index: 1;
+  margin: 0;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.about__content {
+  max-width: 660px;
+  z-index: 1;
+  margin-top: 19px;
+}
+
+.about__paragraph {
+  margin: 0 0 20px;
+  font-family: "Noto-serif";
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.about__circle {
+  border-radius: 50%;
+  width: 426px;
+  height: 426px;
+  z-index: 0;
+  background-color: #2f80ed;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+}
+
+.about__circle_animation_blurred {
+  animation-name: pulsate;
+  animation-duration: 1.3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}

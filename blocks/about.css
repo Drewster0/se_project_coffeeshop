@@ -1,6 +1,6 @@
 @keyframes pulsate {
   0% {
-    opacity: 0.5;
+    opacity: 0;
   }
 
   50% {
@@ -8,32 +8,9 @@
   }
 
   100% {
-    opacity: 1;
-    transform: scale(1.5);
+    opacity: 0;
+    transform: scale(1.2);
   }
-}
-
-.recipes__videos {
-  display: flex;
-  gap: 40px;
-  justify-content: center;
-  margin-top: 80px;
-}
-
-.recipes__iframe {
-  height: 273px;
-  width: 480px;
-}
-
-.recipes__video-caption {
-  margin: 24px 0 0;
-  font-family: "Inter";
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
 }
 
 .about {
@@ -64,7 +41,7 @@
 
 .about__paragraph {
   margin: 0 0 20px;
-  font-family: "Noto serif";
+  font-family: "Noto serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -85,9 +62,5 @@
 }
 
 .about__circle_animation_blurred {
-  animation-name: pulsate;
-  animation-duration: 1.3s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
+  animation: pulsate 1.3s ease-in-out 0s infinite;
 }

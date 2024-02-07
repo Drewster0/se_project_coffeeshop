@@ -54,6 +54,9 @@
 
 .footer__social-link:hover {
   color: #c1c1c1;
+  transition-property: color;
+  transition-duration: 1s;
+  transition-timing-function: linear;
 }
 
 .footer__copyright {

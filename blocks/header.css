@@ -20,6 +20,7 @@
   position: absolute;
   top: 124px;
   right: 5px;
+  z-index: 0;
 }
 
 .header__title {
@@ -30,6 +31,7 @@
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   letter-spacing: -0.6px;
+  z-index: 1;
 }
 
 .header__description {
@@ -38,6 +40,7 @@
   line-height: 30px;
   margin: 28px 0 0;
   font-family: "Noto serif", "Times New Roman", serif;
+  z-index: 1;
 }
 
 .header__span-accent {
@@ -52,11 +55,13 @@
 .header__footer {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   margin-top: auto;
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   line-height: 20px;
   color: #6f6f6f;
+  z-index: 1;
 }
 
 .header__paragraph {
